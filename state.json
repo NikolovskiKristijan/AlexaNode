@@ -1,0 +1,75 @@
+{
+    "method": "get_state",
+    "type": "*",
+    "majordomo": "email@gmail.com-2025-08-02T16-57-22",
+    "data": {
+      "STANZE": {
+        "bagno p1": [
+          {
+            "nome": "aplique nord",
+            "tipo": 0,
+            "statoDevice": 1,
+            "stato": false,
+            "codice": {
+              "porta": "/dev/ttyS1",
+              "nodo": "1",
+              "azione": "DO",
+              "nr": 0
+            }
+          },
+          {
+            "nome": "finestra",
+            "tipo": 1,
+            "statoDevice": true,
+            "stato": 0,
+            "codice": {
+              "porta": "tapparella",
+              "nome": "bagno p1 finestra"
+            }
+          }
+        ],
+  
+        "esterno": [
+          {
+            "nome": "faro ovest",
+            "tipo": 0,
+            "statoDevice": 1,
+            "stato": true,
+            "codice": {
+              "porta": "/dev/ttyS1",
+              "nodo": "4",
+              "azione": "DO",
+              "nr": 0
+            }
+          }
+        ]
+      },
+  
+      "SCENARI": [
+        {
+          "nome": "esterne OFF",
+          "codice": {
+            "azione": "PV",
+            "nodo": 6,
+            "nr": 6,
+            "porta": "PV"
+          },
+          "icona": "Preferiti"
+        }
+      ],
+  
+      "ANTIFURTO": [
+        {
+          "nome": "GENERALE",
+          "stato": 0,
+          "codice": {
+            "azione": "AL",
+            "nodo": 1,
+            "nr": 1,
+            "porta": "Antintrusione"
+          }
+        }
+      ]
+    }
+  }
+  
